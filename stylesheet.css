@@ -38,9 +38,13 @@ h3 {
 	font-weight: bold
 }
 
-navbar-brand {
-	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+.navbar-brand {
+	 box-shadow: 8px 6px grey;
+	width: 250px;
+  border: 10px solid #7419b5;
+
 }
+
 #list{
 	text-align: centre;
 	list-style-position: inside;
