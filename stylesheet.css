@@ -7,6 +7,17 @@ body{
 	text-align: center;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .navbar navbar-expand-lg navbar-light bg-light {
   position: fixed;
@@ -27,6 +38,9 @@ h3 {
 	font-weight: bold
 }
 
+navbar-brand {
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
 #list{
 	text-align: centre;
 	list-style-position: inside;
